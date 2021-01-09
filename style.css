@@ -119,3 +119,90 @@ header img{
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.svg');
 }
+
+main{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background-color: var(--off-white);
+    
+}
+
+.main--exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main--exchange-container--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main--exchange-container .background-img{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main--exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main--exchange-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+.main--table-container-table-grid{
+    display: grid;
+    width: 80%;
+    max-width: 500px;
+    grid-template-columns:50% 50%;
+    grid-template-rows: repeat(4,40px);
+    grid-gap: 1px;
+    margin: 0 auto;
+}
+
+.main--table-container-table-grid div{
+    background-color: var(--just-white);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main--table-container .main--table-container-title{
+    font-size: 1.8rem;
+    color: #FF7936;
+}
+
+.main--table-container-table-grid .main--table-container-name{
+    font-weight: 500;
+    color: #B5B0AC;
+}
+
+.main--table-container-table-grid .main--table-container-price{
+    font-weight: 300;
+    color: #757575;
+}
