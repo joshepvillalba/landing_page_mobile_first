@@ -442,7 +442,7 @@ main{
 .plans--container-slider{
     display: flex;
     gap: 10px;
-    height: 316px;
+    height: 350px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;    
